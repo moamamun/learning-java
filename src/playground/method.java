@@ -3,6 +3,7 @@ package playground;
 public class method {
 
     public static void main(String[] args) {
+
         boolean gameOver = true;
         int score = 800;
         int levelCompleted = 5;
@@ -26,9 +27,6 @@ public class method {
             finalScore += 2000;
             return finalScore;
         }
-
         return -1;
-
     }
-
 }
